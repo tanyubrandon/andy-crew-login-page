@@ -1,6 +1,6 @@
 body{
     background-color: lightslategrey;
-    margin: 40px 20px;
+    margin: 5% 10%;
    
 }
 .container{
@@ -54,7 +54,7 @@ p{
 
 @media (max-width:500px) {
     body{
-        margin: 45px 30px;
+        margin: 5% 10%;
     }
     
 }
