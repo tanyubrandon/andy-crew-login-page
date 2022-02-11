@@ -56,5 +56,13 @@ p{
     body{
         margin: 5% 10%;
     }
+    .container input{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 5% 2%;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
     
 }
