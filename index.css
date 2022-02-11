@@ -1,8 +1,7 @@
 body{
     background-color: lightslategrey;
     margin: 40px 20px;
-    max-width: 100%;
-    max-height: 100%;
+   
 }
 .container{
     border-radius: 5px;
@@ -53,3 +52,9 @@ p{
      color: white;
  }
 
+@media (max-width:500px) {
+    body{
+        margin: 45px 30px;
+    }
+    
+}
