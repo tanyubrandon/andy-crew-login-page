@@ -1,15 +1,25 @@
 body{
     background-color: lightslategrey;
-    margin: 5% 10%;
+    margin: 4% 3%;
    
 }
 .container{
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
     padding: 40px;
+    margin: auto;
 }
 
-.container input{
+.container input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container input[type="password"]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -36,11 +46,10 @@ body{
     margin-left: 5%;
 }
  
-/* .head{
-    display: flex;
-} */
-
 h2 {
+    margin: -20px auto 10px;
+    background: #f4f4f4;
+    width: 100px;
     text-align: center;
 }
 
@@ -51,18 +60,24 @@ p{
  #extra{
      color: white;
  }
+ 
+  #check{
+     float: left; 
+      margin: 10px 0px; 
+ }  
+
+ hr{
+     width: 100%;
+ }
 
 @media (max-width:500px) {
     body{
-        margin: 5% 10%;
+        margin: 7% 10%;
     }
-    .container input{
-        width: 100%;
-        padding: 12px 20px;
-        margin: 5% 2%;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
+    .container{
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 40px;
+        max-width: 600px;
     }
-    
 }

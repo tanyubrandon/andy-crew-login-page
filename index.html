@@ -10,20 +10,23 @@
 <body>
     <div class="container">
         <div class="head">
-            <!-- <hr> -->
+            <hr>
             <h2>Register</h2>
             <!-- <hr> -->
         </div>
-        <p>Create an account if you want to benefit form this opportunity</p>
+        <p>Create an account if you dont have one.</p>
         <form >
           <div class="name">
               <input type="text" name="firstname" placeholder="First Name">
               <input type="text" name="lastname" placeholder="Last Name" id="lastname">
           </div>
-          <input type="text" name="email" placeholder="Email">
-          <input type="password" name="password" placeholder="Password">
-          <input type="password" name="confirmpassword" placeholder="Confirm Password">
-
+          <input type="text" name="email" placeholder="Email" id="input">
+          <input type="password" name="password" placeholder="Password"id="input">
+          <input type="password" name="confirmpassword" placeholder="Confirm Password" id="input">
+          <div id="check">
+            <span><input type="checkbox" ></span> 
+            <label for="check">I accept all the <b style="color: blue;">Terms & <b>Policies</b></label>
+          </div>
           <button type="submit" id="submit">Register Now</button>
         </form>
     </div>
